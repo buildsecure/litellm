@@ -36,7 +36,7 @@
 ## Use LiteLLM for
 
 <details open>
-<summary><b>LLMs</b> - Call 100+ LLMs (Python SDK + AI Gateway)</summary>
+<summary><b>LLMs</b> - Call 200+ LLMs (Python SDK + AI Gateway)</summary>
 
 [**All Supported Endpoints**](https://docs.litellm.ai/docs/supported_endpoints) - `/chat/completions`, `/responses`, `/embeddings`, `/images`, `/audio`, `/batches`, `/rerank`, `/a2a`, `/messages` and more.
 
