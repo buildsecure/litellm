@@ -1,4 +1,4 @@
-# Data Privacy and Security
+# Data Privacy and Security (WIP)
 
 ## Security Measures
 
@@ -47,3 +47,18 @@ We value the security community's role in protecting our systems and users. To r
 - Provide any relevant additional information
 
 We'll review all reports promptly. Note that we don't currently offer a bug bounty program.
+
+### Security Checklist
+
+Use this checklist to verify your LiteLLM deployment meets security best practices:
+
+- [ ] `LITELLM_MASTER_KEY` is set to a strong, unique secret and not exposed in version control
+- [ ] All API keys are stored as environment variables, not hardcoded in config files
+- [ ] TLS/HTTPS is enabled for all endpoints (proxy and any upstream services)
+- [ ] Database credentials are rotated regularly and access is restricted by IP
+- [ ] SSO is configured and direct password-based login is disabled where possible
+- [ ] Allowed IP address restrictions are configured for your LiteLLM Cloud or self-hosted instance
+- [ ] Audit logs are enabled and retention policy is set according to your compliance requirements
+- [ ] Dependency updates and security patches are applied regularly
+- [ ] CodeQL or equivalent static analysis is enabled on your fork/deployment pipeline
+- [ ] Access to the admin UI and management endpoints is restricted to authorized personnel only
